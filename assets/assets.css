@@ -491,6 +491,19 @@ header{
     border-top-right-radius: 60px;
     padding: 30px 10px;
 }
+.explosion-card-content > p{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #fdfbfbe0;
+    width: 100%;
+}
+.explosion-card-content{
+    max-width: 239px;
+    min-height: 66px;
+    gap: 6px;
+    margin-left: 10px;
+    margin-top: -140px;
+}
 .effect-card{
     width: 250px;
     height: 120px;
@@ -499,6 +512,12 @@ header{
     padding: 5px 10px 0px 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.26);
 }
+   .effect-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    margin-left: 60px;
+    }
 .btn{
    width: 100%;
    height: 16px;
